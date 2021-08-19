@@ -12,10 +12,12 @@ In this test we are going to look at a simplified subsection of this flow which 
 Please open the InitSchema.sql file which lives in `/resources/db/migration/common` \
 From the sql file, you will see there are 4 tables - supplier, product, offer and offer item.
 To give a short description of the flow -
-- An offer item is an entity which contains a product (drug), and a proposed price and volume for that product
-- An offer is a logic grouping of offer items
-- A supplier submits an offer which will contain one or more items.
-- The supplier can subsequently update the offer or delete the offer
+- A product is a representation of a pharmaceutical drug.
+- A supplier is a user that wants to sell products.
+- An offer item is an entity which contains a product, and a proposed price and volume for that product.
+- An offer is a logic grouping of offer items.
+- A supplier can submit an offer which will contain one or more items.
+- The supplier can subsequently update an offer or delete the offer.
 
 Model the tables above and subsequently expose the following REST endpoints - 
 
@@ -25,9 +27,9 @@ Model the tables above and subsequently expose the following REST endpoints -
 4. An endpoint which updates an offer. You are free to decide what fields to update.
 5. An endpoint which deletes an offer and its associated offer items.
 
-There is no strict requirement to testing these endpoints, or the underlying implementation, but we are very interested in seeing your approach to testing and how you decide to test different parts of the application.
+There are no strict requirement to testing these endpoints, or the underlying implementation, but we are very interested in seeing your approach to testing and how you decide to test different parts of the application.
 
-This is a very open-ended assignment and there is no strict requirements around how you should implement. \
+This is a very open-ended assignment and there is no one way as to how it should be implemented. \
 We are looking to get a sense of how you like to write and test code, so show us what you can do! 
 
 ### Guidelines
