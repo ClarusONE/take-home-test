@@ -42,6 +42,7 @@ You are welcome to add any 3rd party libraries/frameworks. The project is alread
 
 ### Running the application
 
+You will need to be running Java 11 locally as a minimum version. \
 In order to boot the application you should run the following command inside the project directory - 
 
 ```shell script
