@@ -9,7 +9,7 @@ In this test we are going to look at a simplified subsection of this flow which 
 
 ### Task
 
-Please open the InitSchema.sql file which lives in `/resources/db/migration/common` \
+Please open the InitSchema.sql file which lives in `/resources/db/migration/common`
 From the sql file, you will see there are 4 tables - supplier, product, offer and offer item.
 To give a short description of the flow -
 - A product is a representation of a pharmaceutical drug.
@@ -19,7 +19,7 @@ To give a short description of the flow -
 - A supplier can submit an offer which will contain one or more items.
 - The supplier can subsequently update an offer or delete the offer.
 
-This project contains a skeleton Spring Boot Application which is connected to an in-memory db and initialises the tables in the database using the script mentioned above (using flyway db migration tool). Your task is to model these tables and expose data via endpoints which are outlined below. \
+This project contains a skeleton Spring Boot Application which is connected to an in-memory db and initialises the tables in the database using the script mentioned above (using flyway db migration tool). Your task is to model these tables and expose data via endpoints which are outlined below.
 
 Expose the following REST endpoints - 
 
@@ -31,11 +31,11 @@ Expose the following REST endpoints -
 
 There are no strict requirement to testing these endpoints, or the underlying implementation, but we are very interested in seeing your approach to testing and how you decide to test different parts of the application.
 
-This is a very open-ended assignment and there is no one way as to how it should be implemented. \
+This is a very open-ended assignment and there is no one way as to how it should be implemented.
 We are looking to get a sense of how you like to write and test code, so show us what you can do! 
 
 ### Guidelines
-You will notice that the TakeHomeTestApplication class is written in Kotlin however there is NO obligation to write the task in Kotlin. \
+You will notice that the TakeHomeTestApplication class is written in Kotlin however there is NO obligation to write the task in Kotlin.
 The application can be implemented using any combination of the following languages:
 
 - Java
@@ -46,7 +46,7 @@ You are welcome to add any 3rd party libraries/frameworks. The project is alread
 
 ### Running the application
 
-You will need to be running Java 11 locally as a minimum version. \
+You will need to be running Java 11 locally as a minimum version.
 In order to boot the application you should run the following command inside the project directory - 
 
 ```shell script
