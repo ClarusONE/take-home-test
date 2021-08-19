@@ -19,7 +19,7 @@ To give a short description of the flow -
 - A supplier can submit an offer which will contain one or more items.
 - The supplier can subsequently update an offer or delete the offer.
 
-Model the tables above and subsequently expose the following REST endpoints - 
+Model the tables which are specified in the InitSchema.sql file and subsequently expose the following REST endpoints - 
 
 1. An endpoint which returns all offers for a given supplier.
 2. An endpoint which returns a specific offer for a given supplier.
