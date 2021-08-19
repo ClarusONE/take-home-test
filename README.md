@@ -19,7 +19,9 @@ To give a short description of the flow -
 - A supplier can submit an offer which will contain one or more items.
 - The supplier can subsequently update an offer or delete the offer.
 
-Model the tables which are specified in the InitSchema.sql file and subsequently expose the following REST endpoints - 
+This project contains a skeleton Spring Boot Application which is connected to an in-memory db and initialises the tables in the database using the script mentioned above (using flyway db migration tool). Your task is to model these tables and expose data via endpoints which are outlined below. \
+
+Expose the following REST endpoints - 
 
 1. An endpoint which returns all offers for a given supplier.
 2. An endpoint which returns a specific offer for a given supplier.
