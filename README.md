@@ -11,7 +11,7 @@ In this test we are going to look at a simplified subsection of this flow which 
 
 Please open the InitSchema.sql file which lives in `/resources/db/migration/common` \
 From the sql file, you will see there are 4 tables - supplier, product, offer and offer item.
-To give a short description of the flow - \
+To give a short description of the flow -
 - An offer item is an entity which contains a product (drug), and a proposed price and volume for that product
 - An offer is a logic grouping of offer items
 - A supplier submits an offer which will contain one or more items.
