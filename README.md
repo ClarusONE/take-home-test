@@ -10,9 +10,14 @@ In this test we are going to look at a simplified subsection of this flow which 
 ### Task
 
 Please open the InitSchema.sql file which lives in `/resources/db/migration/common` \
-Here you will see the table structure which will need to be modelled in order to complete the endpoints below.
+From the sql file, you will see there are 4 tables - supplier, product, offer and offer item.
+To give a short description of the flow - \
+- An offer item is an entity which contains a product (drug), and a proposed price and volume for that product
+- An offer is a logic grouping of offer items
+- A supplier submits an offer which will contain one or more items.
+- The supplier can subsequently update the offer or delete the offer
 
-Expose the following REST endpoints - 
+Model the tables above and subsequently expose the following REST endpoints - 
 
 1. An endpoint which returns all offers for a given supplier.
 2. An endpoint which returns a specific offer for a given supplier.
