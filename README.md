@@ -42,7 +42,7 @@ The application can be implemented using any combination of the following langua
 - Kotlin
 - Groovy
 
-You are welcome to add any 3rd party libraries/frameworks. The project is already set up to support Kotlin, however if you want to use Groovy, you'll need to modify the build file to support compilation of this language.
+You are welcome to add any 3rd party libraries/frameworks. The project is already set up to support Java & Kotlin, however if you want to use Groovy, you'll need to modify the build file to support compilation of this language.
 
 ### Running the application
 
