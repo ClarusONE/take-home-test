@@ -15,7 +15,7 @@ To give a short description of the flow -
 - A product is a representation of a pharmaceutical drug.
 - A supplier is a user that wants to sell products.
 - An offer item is an entity which contains a product, and a proposed price and volume for that product.
-- An offer is a logic grouping of offer items.
+- An offer is a logical grouping of offer items.
 - A supplier can submit an offer which will contain one or more items.
 - The supplier can subsequently update an offer or delete the offer.
 
